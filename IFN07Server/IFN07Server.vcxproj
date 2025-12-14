@@ -22,10 +22,12 @@
     <ClInclude Include="cfn_07.h" />
     <ClInclude Include="ifn_07.h" />
     <ClInclude Include="iid_ifn07.h" />
+    <ClInclude Include="registry.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cfn_07.cpp" />
     <ClCompile Include="register_server.cpp" />
+    <ClCompile Include="registry.cpp" />
     <ClCompile Include="server.cpp" />
   </ItemGroup>
   <ItemGroup>

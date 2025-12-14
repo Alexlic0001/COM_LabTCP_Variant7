@@ -24,6 +24,9 @@
     <ClInclude Include="iid_ifn07.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="registry.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cfn_07.cpp">
@@ -33,6 +36,9 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="register_server.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="registry.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
