@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\IFN07.Component.1]
+@="IFN07 COM Component"
+
+[HKEY_CLASSES_ROOT\IFN07.Component.1\CLSID]
+@="{B3E7C5A9-8F2D-4E1C-A6B4-5D9F8C3A2B7E}"
+
+[HKEY_CLASSES_ROOT\CLSID\{B3E7C5A9-8F2D-4E1C-A6B4-5D9F8C3A2B7E}]
+@="IFN07 COM Component"
+
+[HKEY_CLASSES_ROOT\CLSID\{B3E7C5A9-8F2D-4E1C-A6B4-5D9F8C3A2B7E}\InprocServer32]
+@="C:\\Users\\Alex\\Desktop\\BSUIR\\4 Семестр\\Технологии компонентного программирования(36-16)\\nlab1\\COM_Lab1_Variant7\\IFN07Server\\x64\\Release\\IFN07Server.dll"
+"ThreadingModel"="Apartment"
+
+[HKEY_CLASSES_ROOT\CLSID\{B3E7C5A9-8F2D-4E1C-A6B4-5D9F8C3A2B7E}\ProgID]
+@="IFN07.Component.1"
+
+[HKEY_CLASSES_ROOT\CLSID\{B3E7C5A9-8F2D-4E1C-A6B4-5D9F8C3A2B7E}\VersionIndependentProgID]
+@="IFN07.Component"

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IFN07Server", "IFN07Server\IFN07Server.vcxproj", "{8F38EA03-71EB-4FCF-9D37-D9FE5F232A0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{754FC069-D67B-A9D7-50A1-8D1CA196D8F1}"
+	ProjectSection(SolutionItems) = preProject
+		register.reg = register.reg
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IFN07Client", "IFN07Client\IFN07Client.vcxproj", "{3D91B98B-8C0A-48A4-BE53-FA8405C28CDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F38EA03-71EB-4FCF-9D37-D9FE5F232A0B}.Debug|x64.ActiveCfg = Debug|x64
+		{8F38EA03-71EB-4FCF-9D37-D9FE5F232A0B}.Debug|x64.Build.0 = Debug|x64
+		{8F38EA03-71EB-4FCF-9D37-D9FE5F232A0B}.Debug|x86.ActiveCfg = Debug|Win32
+		{8F38EA03-71EB-4FCF-9D37-D9FE5F232A0B}.Debug|x86.Build.0 = Debug|Win32
+		{8F38EA03-71EB-4FCF-9D37-D9FE5F232A0B}.Release|x64.ActiveCfg = Release|x64
+		{8F38EA03-71EB-4FCF-9D37-D9FE5F232A0B}.Release|x64.Build.0 = Release|x64
+		{8F38EA03-71EB-4FCF-9D37-D9FE5F232A0B}.Release|x86.ActiveCfg = Release|Win32
+		{8F38EA03-71EB-4FCF-9D37-D9FE5F232A0B}.Release|x86.Build.0 = Release|Win32
+		{3D91B98B-8C0A-48A4-BE53-FA8405C28CDA}.Debug|x64.ActiveCfg = Debug|x64
+		{3D91B98B-8C0A-48A4-BE53-FA8405C28CDA}.Debug|x64.Build.0 = Debug|x64
+		{3D91B98B-8C0A-48A4-BE53-FA8405C28CDA}.Debug|x86.ActiveCfg = Debug|Win32
+		{3D91B98B-8C0A-48A4-BE53-FA8405C28CDA}.Debug|x86.Build.0 = Debug|Win32
+		{3D91B98B-8C0A-48A4-BE53-FA8405C28CDA}.Release|x64.ActiveCfg = Release|x64
+		{3D91B98B-8C0A-48A4-BE53-FA8405C28CDA}.Release|x64.Build.0 = Release|x64
+		{3D91B98B-8C0A-48A4-BE53-FA8405C28CDA}.Release|x86.ActiveCfg = Release|Win32
+		{3D91B98B-8C0A-48A4-BE53-FA8405C28CDA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3138E42E-17A2-4C59-B7FA-032C13D910EA}
+	EndGlobalSection
+EndGlobal

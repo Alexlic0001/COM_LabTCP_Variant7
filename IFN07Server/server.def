@@ -1,0 +1,9 @@
+; server.def
+LIBRARY "IFN07Server.dll"
+DESCRIPTION "COM Server for IFN07 Component"
+
+EXPORTS
+    DllGetClassObject   PRIVATE
+    DllCanUnloadNow     PRIVATE
+    DllRegisterServer   PRIVATE
+    DllUnregisterServer PRIVATE
