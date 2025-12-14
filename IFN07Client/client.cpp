@@ -51,7 +51,7 @@ int main() {
         double result72;
         hr = pIFN->Fun72(100, 3, &result72);
         if (SUCCEEDED(hr)) {
-            printf("   Fun72(100, 3) = %.2f\n", result72);
+            printf("   Fun72(100, 3) = %.2f\n", result72); 
         }
 
         double result73;
